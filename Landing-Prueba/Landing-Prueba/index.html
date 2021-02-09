@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Swape</title>
+<link href="img/favicon.ico" rel="icon">
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="httml.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+<link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+<link href="css/bootstrap-custom.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+</head>
+
+<body data-spy="scroll" data-target=".navbar">
+    
+	<header class="header-area sticky">
+		<div class="container">
+			
+			
+			<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			  
+				<a class="navbar-brand" href="index.html"><img src="img/swape-logo-dark.png" class="img-fluid"></a>
+				
+				
+			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+				<i class="fas fa-bars"></i>
+			  </button>
+
+			  <div class="collapse navbar-collapse" id="navbar">
+				<ul class="navbar-nav ml-auto">
+				  <li class="nav-item active">
+					<a class="nav-link" href="#">Home</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" href="#">Features</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" href="#">Why</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" href="#">Screenshots</a>
+				  </li>
+					<li class="nav-item">
+					<a class="nav-link" href="#">Testimonials</a>
+				  </li>
+					<li class="nav-item">
+					<a class="nav-link" href="#">Contacts</a>
+				  </li>
+				  <li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					  Pages
+					</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+					  <a class="dropdown-item" href="#">About</a>
+						<a class="dropdown-item" href="#">Services</a>
+					</div>
+				  </li>
+					<li class="nav-item">
+					<a class="nav-link" href="#">Contact</a>
+				  </li><li class="nav-item">
+					
+				  </li>
+				</ul>
+
+			  </div>
+			</nav>
+			
+		</div>
+	</header>
+    
+
+	
+	<section id="home" class="section">
+		
+		<div class="container">
+			<h5 class="titulo">Beautiful and modern app theme</h5>
+			<h1>I´m Swape</h1>
+			<p>foster cross functional e-tailers via front-end architectures. <br></br>Rapidiously coordinate innovative catalysts for change through</br><br> e-business potentialities. Phosfluorescently.</p>
+			<p class="subtitulo"></p>
+<a href="#" class="btn btn-primary">Get started</a>
+	
+	
+		
+		</div>	
+	</section>
+
+<section id="feature" class="section">
+<div class="container">
+	<i class="fab fa-chromecast"></i>
+	<h1>Feature</h1>
+	<h6>Holisticly pursue business platforms after client-focused process improvements. Uniquely<br> myocardinate maintainable results.<br><br><br></h6>
+	</div>
+	<div class="row" id="rowfeatures">
+		<article class="col-lg-6 col-sm-12 col-12">
+			<div>
+				<img src="img/phone2-1.png" width="95%">
+				</div>
+		</article>
+	<article class="col-lg-6 col-sm-12 col-12">
+			<div class="row">
+				<article class="col-md-4">
+				<i class="far fa gem"></i>
+				</article>
+				</div>
+		
+	
+		<article class="col-md-8">
+			<h4>Premium Quality</h4>
+			<p>Globally syndicate best-of-breed human capital vis-a-vis compelling meta-services bleeding-edge.</p>
+		</article>
+		<article class="col-md-4">
+			<i class="far fa-gem"></i>
+		</article>
+		
+	<article class="col-md-8">
+			<h4>Click Demo Setup</h4>
+			<p>Globally syndicate best-of-breed human capital vis-a-vis compelling meta-services bleeding-edge.</p>
+		</article>
+		<article class="col-md-4">
+			<i class="far fa-gem"></i>
+		</article>
+		
+		<article class="col-md-8">
+			<h4>Free Support & Updates</h4>
+			<p>Globally syndicate best-of-breed human capital vis-a-vis compelling meta-services bleeding-edge.</p>
+		</article>
+		</article>
+	</div>
+</section>
+    
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/jquery.easing.min.js"></script>
+	<script src="js/jquery.nav.js"></script>
+	<script src="js/wow.min.js"></script>
+	<script>
+        new WOW().init();
+	</script>
+    <script>
+		$(function() {
+			$(window).on('scroll', function () {
+				if ($(window).scrollTop() > 48) {
+					$('.header-area').addClass('sticky slideInDown');
+				} else {
+					$('.header-area').removeClass('sticky slideInDown');
+				}
+			});
+			
+			$('#navbar').onePageNav({
+				currentClass: 'active',
+				scrollSpeed: 1000,
+				easing: 'easeOutQuad'
+        	});
+			
+			
+			
+		});
+	</script>
+</body>
+
+</html>
